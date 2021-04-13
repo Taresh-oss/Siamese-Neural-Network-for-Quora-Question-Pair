@@ -39,4 +39,16 @@ Before sending the model for embedding, the data is preprocessed. Those preproce
 Further step is to embed the preprocessed data, for which I have used pre trained word embedding models which are word2vec and Glove. Link for downloading those pretrained models is provided below:
 
 Glove : https://www.kaggle.com/incorpes/glove6b200d
+
 Word2vec : https://github.com/mmihaltz/word2vec-GoogleNews-vectors
+
+Now for LSTM layer I have three different variations :
+- Normal LSTM
+- Manhattan LSTM
+- Manhattan LSTM + Attention (New Model)
+
+For adding the attention layer I referred to : https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/
+
+I have tried different combinations of embedding models and LSTM models to come out with the best possible model for similarity measure. The coedes of each such combination has already been added.
+
+
