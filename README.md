@@ -8,6 +8,8 @@ that occurred in a sentence, on which some distance measures are applied to find
 such traditional methods, it will also require a huge training set as well as time to produce an accurate model wheras Siamese Neural network can train itself on single instance
 of each class which makes it better for such types of problems, as text has a lot of variations but they might mean the same and its impossible to train each one of those possibilties.
 
+Considering the Siamese Neural Network, I have tried multiple models like Normal LSTM, MaLSTM but apart from them I tried a new combination, which is MALSTM + Attention mechanism that actually overpowered the performances of all the ptehr models.
+
 ### Dataset
 Quora has released a public dataset composed of 404, 351 sentence pairs for January 2017. The pairs of questions are from a number of areas, including electronics, entertainment, 
 Politics, society, ideology. This dataset is being downloaded from Kaggle . Each record has a pair of questions, A goal class that represents whether or not the questions are 
